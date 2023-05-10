@@ -1,0 +1,102 @@
+/* Set default font and background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b13f3f;
+  margin: 0;
+}
+
+/* Style header */
+header {
+  background-color: #333;
+  color: #FFF;
+  padding: 20px;
+}
+
+/* Style navigation links */
+nav {
+  display: flex;
+  background-color: #333;
+  position: relative;
+}
+
+nav a {
+  color: #a5a4a4;
+  display: inline;
+  font-size: 4.9em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: auto;
+}
+
+nav a:hover {
+  transition: color 0.3s ease;
+  color: #ffffff;
+}
+
+/* Style main content area */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Style individual content items */
+article {
+  width: 30%;
+  background-color: #FFF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+article h2 {
+  margin-top: 0;
+}
+
+article p {
+  line-height: 1.5;
+}
+
+/* Style footer */
+footer {
+  background-color: #333;
+  color: #FFF;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.slides {
+  border: 1px solid #000;
+}
+
+.slides:hover .img2{
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+.slides:hover .img1{
+  transition: opacity 1s ease;
+  opacity: 0;
+}
+
+
+.img1 {
+  border: 1px solid #f00;
+  position: relative;
+  z-index: 2;
+  transition: opacity 1s ease;
+  opacity: 1;
+}
+
+.img2 {
+  border: 1px solid #0f0;
+  position: relative;
+  z-index: 2;
+  right: 38.7%;
+  transition: opacity 1s ease;
+  opacity: 0;
+}
+
