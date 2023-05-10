@@ -107,14 +107,61 @@ footer {
 
 
 .download {
+  
   background-color: DodgerBlue;
   border: none;
   color: white;
   padding: 12px 30px;
+  margin: auto;
   cursor: pointer;
   font-size: 20px;
+
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .download:hover {
-  background-color: RoyalBlue;
+  background-color: rgb(63, 98, 202);
+}
+
+
+.logo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.blogo{
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.downimg{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.downtitle{
+  font-size: 4em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-decoration: none;
+  color: #a5a4a4;
+  background: #333;
+
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 12px 36px;
+
+
 }
