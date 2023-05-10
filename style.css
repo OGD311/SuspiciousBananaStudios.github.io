@@ -21,12 +21,16 @@ nav {
 
 nav a {
   color: #a5a4a4;
+  
   display: inline;
+  padding: 10px 20px;
+  margin: auto;
+
   font-size: 4.9em;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   text-decoration: none;
-  padding: 10px 20px;
-  margin: auto;
+  
+  cursor: pointer;
 }
 
 nav a:hover {
@@ -100,3 +104,17 @@ footer {
   opacity: 0;
 }
 
+
+
+.download {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.download:hover {
+  background-color: RoyalBlue;
+}
