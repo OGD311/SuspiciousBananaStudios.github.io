@@ -4,9 +4,14 @@ body {
   font-family: Arial, sans-serif;
   background-color: #b13f3f;
   margin: 0;
+  color: #a5a4a4;
 }
 
-h2{
+h2 {
+  color: #a5a4a4;
+}
+
+p {
   color: #a5a4a4;
 }
 /* Style header */
