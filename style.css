@@ -122,7 +122,12 @@ footer {
   opacity: 0;
 }
 
-
+/*GalleyImages*/
+.gallery{
+  height: auto;
+  width:30vw;
+  margin-left: 2.4vw;
+}
 
 /*LOGO*/
 
